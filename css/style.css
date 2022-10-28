@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    color: #707070;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+    color: #707070;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+header .profile{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+header .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header .profile .details {
+    margin-left: 25px;
+}
+header .profile h1 {
+    font-size: 4.5em;
+    font-weight: lighter;
+}
+
+header .profile .details .role {
+    background-color: #4595F4;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+} 
+
+header .bio p {
+    margin-bottom: 20px;
+}
+
+header .bio .contact {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .bio a {
+    color: #4595F4;
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 24px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+/* compétences */
+section .skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+section .skill-item {
+    border: 1px solid #707070;
+    border-radius: 7px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 49%;
+    margin-bottom: 10px;
+}
+
+.skills .skill-item .progress {
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+.skills .skill-item:hover,
+.langs .lang-item:hover {
+    background-color: #75b0f9;
+    border: none;
+    color: #fff;
+}
+
+.langs {
+    display: flex;
+    margin-top: 20px;
+}
+.langs .lang-item {
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.langs .lang-item img {
+    width: 40px;
+    height: 28px;
+    margin-right: 12px;
+}
+
+.expers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.expers .exp-item {
+    width: 25%;
+    padding-right: 10px;
+}
+.expers .exp-item .timeline {
+    display: flex;
+    align-items: center;
+}
+
+.expers .exp-item .timeline .line {
+    width: 100%;
+    margin-left: 7px;
+    border: none;
+    height: 2px;
+    background-color: #707070;
+}
+
+.expers .exp-item .circle {
+    background-color: #707070;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: block;
+}
+
+.expers .exp-item .timeline:hover .line,
+.expers .exp-item .timeline:hover .circle  {
+    background-color: green;
+}
+
+.expers .exp-item p {
+    margin-top: 15px;
+}
